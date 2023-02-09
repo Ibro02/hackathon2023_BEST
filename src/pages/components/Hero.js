@@ -6,7 +6,7 @@ function Hero() {
 
   return (
   
- <Flex width={'100%'} minH={"100vh"} bgSize={'cover'} backgroundImage={"/HeroBg.svg"} 
+ <Flex width={'100%'}  bgAttachment={"fixed"} minH={"100vh"} bgSize={'cover'} backgroundImage={"/HeroBg.svg"} 
     >
  <Center   m={'auto'} alignItems={'center'} justifyContent={'center'}>
      <Flex  mx="auto" alignItems={'center'} color='white' flexDir={'column'}>

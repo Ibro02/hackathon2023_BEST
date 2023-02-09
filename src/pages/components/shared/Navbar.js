@@ -92,7 +92,7 @@ const DesktopNav = () => {
             <PopoverTrigger >
               <Link
                 px={2}
-               
+                textTransform={"uppercase"}
                 href={navItem.href ?? '#'}
                 fontSize={'lg'}
                 
@@ -109,13 +109,14 @@ const DesktopNav = () => {
 
             {navItem.children && (
               <PopoverContent
+              
                 border={0}
                 boxShadow={'xl'}
                 bg={popoverContentBgColor}
                 p={4}
                 rounded={'xl'}
                 minW={'sm'}>
-                <Stack>
+                <Stack >
                   {navItem.children.map((child) => (
                     <DesktopSubNav  key={child.label} {...child} />
                   ))}
@@ -232,13 +233,13 @@ const DesktopSubNav = ({ label, href, subLabel } ) => {
 
 const NAV_ITEMS = [
   {
-   label: 'O BEST-u',
+    label: 'O događaju',
+    
+  },
+  {
+   label: 'Organizator',
    href: '#',
  },
-  {
-    label: 'O događaju',
-   
-  },
   {
     label: 'Prijašnja Iskustva',
    
