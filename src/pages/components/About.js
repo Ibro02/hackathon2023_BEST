@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, Center, Flex,Stack, Text ,Image, Container} from "@chakra-ui/react"
+import { Box, Flex, Text ,Image} from "@chakra-ui/react"
 
 function About() {
 

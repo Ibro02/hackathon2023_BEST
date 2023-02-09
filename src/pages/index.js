@@ -6,6 +6,8 @@ import Hero from './components/Hero'
 import Navbar from './components/shared/Navbar.js'
 import About from './components/About'
 import Organizer from './components/Organizer'
+import LastExpirience from './components/LastExpirience'
+import Hackathon from './components/Hakaton'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,7 +17,9 @@ export default function Home() {
     <Navbar/>
 <Hero/>
 <About/>
-<Organizer/>
+<Organizer>
+</Organizer>
+<Hackathon></Hackathon>
     </>
   )
 }
