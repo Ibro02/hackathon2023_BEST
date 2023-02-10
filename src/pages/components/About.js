@@ -8,19 +8,19 @@ function About() {
 
 const styleRed = {
     color: '#E63448',
-    fontWeight: '900',
+    fontWeight: '700',
     textTransform: "uppercase",
     textShadow: "1px 1px 0 black"
 
 }
 
-// const styleYellow = {
-//     color: '#F7DE43',
-//     fontWeight: '900',
-//     textTransform: "uppercase",
-//     textShadow: "1px 1px 0 black"
+const styleNum = {
+    color: '#E63448',
+    fontWeight: '900',
+    textTransform: "uppercase",
+    textShadow: "1px 1px 0 black"
 
-// }
+}
 // const styleDark = {
 //     color: 'white',
 //     fontWeight: '900',
@@ -32,7 +32,7 @@ const styleRed = {
 
   return (
     <>
-    <Box alignItems={"center"}  bgColor={"#292929"} color={"whiteAlpha.900"} boxShadow={"50px 10px 80px 10px black"} backgroundRepeat={"no-repeat"} backgroundSize={"cover"} backgroundImage={"/Net.svg"}>
+    <Box id={"about"} alignItems={"center"}  bgColor={"#292929"} color={"whiteAlpha.900"} boxShadow={"50px 10px 80px 10px black"} backgroundRepeat={"no-repeat"} backgroundSize={"cover"} backgroundImage={"/Net.svg"}>
 
                <Box py={40} px={10}>
         <Text align={"center"} fontSize={{base: "5xl", md:"6xl"}} textTransform={"uppercase"} fontWeight={700} textShadow={"5px 5px 0 black"}>O događaju</Text>
@@ -44,7 +44,7 @@ const styleRed = {
 <Text mt={10} mb={{base: 0, md: 10}} fontSize={{base: "2xl", md:"3xl"}}>
 <span  style={styleRed}>Hackathon</span> je intenzivno programersko takmičenje timskog
 karaktera koje se održava treću godinu zaredom.
-Timovi od <span style={styleRed}>3</span> do <span style={styleRed}>4</span> člana imaju zadatak da tokom <span style={styleRed}>36</span> sati pokažu
+Timovi od <span style={styleNum}>3</span> do <span style={styleNum}>4</span> člana imaju zadatak da tokom <span style={styleNum}>36</span> sati pokažu
 kako svoju kreativnost, kritičko razmišljanje, prezentacione
 vještine, tako i tehničke vještine. Cilj Hackathon-a je da studenti
 u timu pokažu svoju efikasnost, rješavajući softverski problem

@@ -6,7 +6,7 @@ function Organizer() {
   return (
 <>
 
-<Box align={"center"} fontSize={{base: "5xl", md:"6xl"}} py={"20"}  color={"white"} bgAttachment={"fixed"} minH={"100vh"} bgSize={'cover'} width={"100%"} backgroundImage={"/OrganizersBg.svg"}>
+<Box align={"center"} id={"organizer"} fontSize={{base: "5xl", md:"6xl"}} py={"20"}  color={"white"} bgAttachment={"fixed"} minH={"100vh"} bgSize={'cover'} width={"100%"} >
     
     <Box py={20} fontWeight={700}>
 <Text>Organizatori</Text>
@@ -36,7 +36,6 @@ saradnja sa studentima iz cijele Evrope.
 </Flex>
 
 
-<LastExpirience/>
 
 </Box>
 

@@ -27,8 +27,9 @@ export default function WithSubnavigation() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <Box position={"fixed"} zIndex={"100"}  width={"100%"}>
+    <Box position={"fixed"} zIndex={"100"}  width={"100%"} >
       <Flex
+      
         bg={useColorModeValue('blackAlpha.600', 'white')}
         color={useColorModeValue('white', 'gray.600')}
         minH={'90px'}
@@ -53,6 +54,7 @@ export default function WithSubnavigation() {
           />
         </Flex>
         <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+    
          {/* <Text
             textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
             fontFamily={'heading'}
@@ -71,8 +73,8 @@ export default function WithSubnavigation() {
           </Flex>
       </Flex>
 
-      <Collapse in={isOpen} animateOpacity>
-        <MobileNav />
+      <Collapse in={isOpen} animateOpacity >
+        <MobileNav  />
       </Collapse>
     </Box>
   );
@@ -85,17 +87,17 @@ const DesktopNav = () => {
   const popoverContentBgColor = useColorModeValue('blackAlpha.600', 'gray.800');
 
   return (
-    <Stack direction={'row'} m={"auto"} spacing={4}>
+    <Stack direction={'row'} m={"auto"} spacing={4}  scroll={false}>
       {NAV_ITEMS.map((navItem) => (
-        <Box key={navItem.label} >
-          <Popover trigger={'hover'} placement={'bottom-start'}>
+        <Box key={navItem.label}  >
+          <Popover  trigger={'hover'}  placement={'bottom-start'} >
             <PopoverTrigger >
               <Link
                 px={2}
                 textTransform={"uppercase"}
                 href={navItem.href ?? '#'}
                 fontSize={'lg'}
-                
+               
                 fontWeight={500}
                 
                 color={linkColor}
@@ -110,6 +112,7 @@ const DesktopNav = () => {
             {navItem.children && (
               <PopoverContent
               
+           
                 border={0}
                 boxShadow={'xl'}
                 bg={popoverContentBgColor}
@@ -134,6 +137,7 @@ const DesktopNav = () => {
 const MobileNav = () => {
   return (
     <Stack
+    scroll={false}
       bg={useColorModeValue('blackAlpha.800', 'gray.800')}
       p={4}
       display={{ md: 'none' }}
@@ -175,14 +179,18 @@ const MobileNavItem = ({ label, children, href }) => {
         )}
       </Flex>
 
-      <Collapse in={isOpen} animateOpacity style={{ marginTop: '0!important' }}>
+      <Collapse in={isOpen} animateOpacity style={{ marginTop: '0!important' }} >
         <Stack
+        
           mt={2}
           pl={4}
           borderLeft={1}
           borderStyle={'solid'}
           borderColor={useColorModeValue('gray.200', 'gray.700')}
-          align={'start'}>
+          align={'start'}
+          scroll={false}
+          >
+            
           {children &&
             children.map((child) => (
               <Link key={child.label} py={2} href={child.href}>
@@ -234,22 +242,27 @@ const DesktopSubNav = ({ label, href, subLabel } ) => {
 const NAV_ITEMS = [
   {
     label: 'O događaju',
-    
+    href: "#about"
   },
   {
    label: 'Organizator',
-   href: '#',
+   href: '#organizer',
  },
   {
     label: 'Prijašnja Iskustva',
+    href: "#lastexp"
    
   },
   {
     label: 'Hakaton',
-    href: '#',
+    href: '#hakaton',
   },
   {
     label: 'Jobfair',
-    href: '#',
+    href: '#jobfair',
   },
+  {
+    label: 'Sponzori',
+    href: '#',
+  }
 ];
