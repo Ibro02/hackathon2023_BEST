@@ -29,7 +29,7 @@ boxShadow: "rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px
 color={"white"} boxShadow={"rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"}  _hover={{ bgColor: "#363636", border: "2px solid gray",
         color: "#white",}}>
 <FontAwesomeIcon icon={faTrophy} fontSize={"70"}  color={"silver"} filter={"drop-shadow(20px 10px 20px black)"} />
-<Text textTransform={"uppercase"} fontSize={"30"}  textAlign={"center"}>Drugo mjesto</Text>
+<Text textTransform={"uppercase"} fontSize={{base:"20",md:"30"}}  textAlign={"center"}>Drugo mjesto</Text>
 <Text textTransform={"uppercase"} fontSize={{base: "40", md:"50"}} textAlign={"center"} >1500 KM</Text>
 
 
@@ -41,7 +41,7 @@ color={"white"} boxShadow={"rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0
        
 <FontAwesomeIcon icon={faTrophy} fontSize={"80"} filter={"drop-shadow(20px 10px 10px black)"} color={"gold"} />
            
-<Text textTransform={"uppercase"} fontSize={"30"}  textAlign={"center"}>Prvo mjesto</Text>
+<Text textTransform={"uppercase"} fontSize={{base:"20",md:"30"}}  textAlign={"center"}>Prvo mjesto</Text>
 <Text textTransform={"uppercase"} color={"gold"
 } _groupHover={{color:"white"}} fontSize={{base: "40", md:"50"}} textAlign={"center"} >2000 KM</Text>
 
@@ -53,7 +53,7 @@ color={"white"} boxShadow={"rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0
 color={"white"} boxShadow={"rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset"} _hover={{bgColor: "#C85250", border: "2px solid gray",
 color: "white",}} >
 <FontAwesomeIcon icon={faTrophy}fontSize={"70"}  filter={"drop-shadow(20px 10px 10px black)"} color={"brown"}/>
-<Text textTransform={"uppercase"} fontSize={"30"} textAlign={"center"}>Trece mjesto</Text>
+<Text textTransform={"uppercase"} fontSize={{base:"20",md:"30"}} textAlign={"center"}>Trece mjesto</Text>
 <Text textTransform={"uppercase"} fontSize={{base: "40", md:"50"}} textAlign={"center"} >500 KM</Text>
 
 </Card>

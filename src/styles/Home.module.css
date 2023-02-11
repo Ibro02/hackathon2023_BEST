@@ -24,7 +24,10 @@
   align-items: center;
   gap: 0.5rem;
 }
-
+::selection {
+  color: red;
+  background: yellow;
+}
 .description p {
   position: relative;
   margin: 0;

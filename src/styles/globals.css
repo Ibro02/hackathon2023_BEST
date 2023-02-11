@@ -1,4 +1,5 @@
-html
-{
-    scroll-behavior: smooth;
-}
+
+::selection {
+    background: #E63448;
+    color: white;
+  }

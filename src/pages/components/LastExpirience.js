@@ -9,7 +9,7 @@ function LastExpirience() {
       <Text>Prijašnja iskustva</Text>
 <Box bgColor={"#E63448"} width={{base:"80%", md:"lg"}} mx={"auto"} my={"5"} h={"3px"} align={"center"} borderRadius={"100%"}></Box>
 
-        <Flex bgColor={"#040406"} border={"1px solid #292929"} boxShadow={"  20px 30px 50px black"} mx={{base: "1.5", md:"28%"}} py={"1"}  borderRadius={"10"} flexDir={"row"} alignItems={"center"} justifyContent="space-between"  margin={"auto"}>
+        <Flex bgColor={"#040406"} border={"1px solid #292929"} boxShadow={" 1px 1px 2px black"} mx={{base: "1.5", md:"28%"}} py={"1"}  borderRadius={"10"} flexDir={"row"} alignItems={"center"} justifyContent="space-between"  margin={"auto"}>
         <Carousel />
         </Flex>
     </Box>

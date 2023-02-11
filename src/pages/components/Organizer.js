@@ -15,7 +15,7 @@ function Organizer() {
 <Image src="/BEST_signature_mostar_white.png" borderRadius={"20"}></Image>
     </Box>
 
-<Flex fontSize={{base: "xl", md:"2xl"}} flexDir={{base: "column", md:"column", lg:"row"}} fontWeight={200} justifyContent={{base:"space-between", lg:"space-between"}} alignItems={{base: "space-between", md: "normal"}} backgroundColor={"#292929"} color={"whiteAlpha.900"} mx={{base: "1.5", md:"10"}}   borderRadius={"10"} boxShadow={"  20px 30px 50px black"}>
+<Flex fontSize={{base: "xl", md:"2xl"}} flexDir={{base: "column", md:"column", lg:"row"}} fontWeight={200} justifyContent={{base:"space-between", lg:"space-between"}} alignItems={{base: "space-between", md: "normal"}} backgroundColor={"#292929"} color={"whiteAlpha.900"} mx={{base: "1.5", md:"10"}}   borderRadius={"10"} boxShadow={" 1px 1px 2px black"}>
 
 <Text   width="70%" justifyContent={"center"} my={{base:"10",lg:"auto"}} mx={{base:"auto", lg:"0"}} px={"5"} textAlign={'justify'}>BEST Mostar je lokalna BEST grupa Univerziteta
 “Džemal Bijedić” u Mostaru, koja broji više od 45
@@ -26,10 +26,11 @@ entuzijastičnih članova organizacije, studentima
 Univerziteta je omogućeno povezivanje, razmjena i
 saradnja sa studentima iz cijele Evrope.
 </Text>
-<Box width={"auto"} height={{base:"auto", md:"500px"}} position={"relative"} >
+<Box width={"auto"} boxSizing={"border-box"} boxSize={{base:"auto", md:"2xl", lg:"100%"}} margin={"auto"} height={{base:"auto", md:"auto"}} position={"relative"} >
 
 <Image src="/Bestovci.jpg" display={{base:"none", md:"flex"}} shadow={"4px 4px 10px black"}  borderRadius={{base: '10px 0 0 10px', lg: "0 10px 10px 0"}} boxSize={"border-box"} bgSize={'cover'} ml={{base: "0", md: "0"}} my={"auto"} h={{base: "100%", md:"100%"}} width={{base: "100%", md:"100%", lg:"100%"}}></Image>
-<Image src="/BestovciMd.jpg" display={{base:"flex", md:"none"}} shadow={"4px 4px 10px black"}  borderRadius={{base: '10px 0 0 10px', lg: "0 10px 10px 0"}} boxSize={"border-box"} bgSize={'cover'} ml={{base: "0", md: "0"}} my={"auto"} h={{base: "100%", md:"100%"}} width={{base: "100%", md:"100%", lg:"100%"}}></Image>
+
+<Image src="/BestovciMd.jpg" display={{base:"flex", md:"none"}} shadow={"4px 4px 10px black"} boxSizing={"border-box"} borderRadius={{base: '10px 0 0 10px', lg: "0 10px 10px 0"}} boxSize={"border-box"} bgSize={'cover'} ml={{base: "0", md: "0"}} my={"auto"} h={{base: "100%", md:"100%"}} width={{base: "100%", md:"100%", lg:"0"}}></Image>
 
 </Box>
 
