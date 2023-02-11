@@ -2,4 +2,12 @@
 ::selection {
     background: #E63448;
     color: white;
+    
+  }
+
+  .hero
+  {
+  -webkit-background-clip: border-box;
+   -moz-background-clip: border-box;
+   color: red;
   }

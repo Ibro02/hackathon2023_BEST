@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react'
 import { Box,Link, Button, Center, Flex,Stack, Text ,Image, Container} from "@chakra-ui/react"
 import Typewriter from 'typewriter-effect';
-
+import {hero} from '../../styles/Hero.module.css'
 function Hero() {
 
   
   return (
   
- <Flex width={'100%'}  bgAttachment={"fixed"} minH={"100vh"} bgSize={'cover'} backgroundImage={"/HeroBg.svg"} 
+ <Flex className={hero} width={'100%'}  bgAttachment={"fixed"} minH={"100vh"} bgSize={'cover'} backgroundImage={"/HeroBg.svg"} 
     >
  <Center   m={'auto'} alignItems={'center'} justifyContent={'center'}>
      <Flex  mx="auto" alignItems={'center'} color='white' flexDir={'column'}>

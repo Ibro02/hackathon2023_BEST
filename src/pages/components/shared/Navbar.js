@@ -43,7 +43,7 @@ export default function WithSubnavigation() {
       
           flex={{ base: 1, md: 'auto' }}
           ml={{ base: -2 }}
-          display={{ base: 'flex', md: 'none' }}>
+          display={{ base: 'flex', lg: 'none' }}>
           <IconButton
             onClick={onToggle}
             icon={
@@ -61,13 +61,13 @@ export default function WithSubnavigation() {
             color={useColorModeValue('white', 'gray.800')}>
           
           </Text>  */}
-           <Image  width={"36"} align={useBreakpointValue({ base: 'center', md: 'left' })} src={"/BEST_signature_mostar_white.png"} >
+           <Image  width={"36"} align={useBreakpointValue({ base: 'center', lg: 'left' })} src={"/BEST_signature_mostar_white.png"} >
 
 </Image>
          
         </Flex>
 
-        <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
+        <Flex display={{ base: 'none', lg: 'flex' }} ml={10}>
             <DesktopNav />
           </Flex>
       </Flex>
@@ -139,7 +139,7 @@ const MobileNav = () => {
     scroll={false}
       bg={useColorModeValue('blackAlpha.800', 'gray.800')}
       p={4}
-      display={{ md: 'none' }}
+      display={{ lg: 'none' }}
       color={"white"}>
       {NAV_ITEMS.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />

@@ -1,0 +1,8 @@
+.hero
+{
+-webkit-background-clip: border-box;
+ -moz-background-clip: border-box;
+ color: red !important;
+ background-color: red;
+ 
+}
