@@ -37,7 +37,7 @@ const styleNum = {
                <Box py={40} px={{base:0,md:10}}>
         <Text align={"center"} fontSize={{base: "5xl", md:"6xl"}} textTransform={"uppercase"} fontWeight={700} textShadow={"5px 5px 0 black"}>O događaju</Text>
 <Box bgColor={"#E63448"} width={{base:"60%", md:"m"}} mx={"auto"} my={"5"} h={"3px"} align={"center"} borderRadius={"10"}></Box>
-<Flex flexDir={"row"}  m={{base: 5, md: 10}}>
+<Flex flexDir={"row"}  m={{base: 2, md: 10}}>
 
 <Flex flexDir={"column"} width={{base: "none",lg:"50%"}} justifyContent={"space-between"} p={"10"} alignItems={"space-between"} fontWeight={100} textAlign={"justify"}>
 

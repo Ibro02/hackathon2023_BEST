@@ -26,7 +26,7 @@ export default function Home() {
 
 <FirstLayout>
 <Organizer/>
-<LastExpirience/>
+{<LastExpirience/>}
 </FirstLayout>
 
 <SecondLayout>

@@ -65,7 +65,6 @@ export default function WithSubnavigation() {
 
 </Image>
          
-
         </Flex>
 
         <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
