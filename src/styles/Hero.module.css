@@ -1,5 +1,5 @@
 .hero
 {
- -webkit-background-origin: content-box;
- 
+
+ -webkit-background-clip: content-box;
 }
