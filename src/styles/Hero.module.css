@@ -1,4 +1,4 @@
 .hero
 {
- -webkit-background-origin: content-box;
+ -webkit-background-origin: padding-box;
 }
