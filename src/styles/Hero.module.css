@@ -1,8 +1,10 @@
 .hero
 {
--webkit-background-clip: border-box;
- -moz-background-clip: border-box;
- color: red !important;
- background-color: red;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/HeroBg.svg',     sizingMethod='scale');
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/HeroBg.svg', sizingMethod='scale');
  
 }
