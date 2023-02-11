@@ -7,7 +7,7 @@ function Hero() {
   
   return (
   
- <Flex className={hero} width={'100%'}  bgAttachment={"fixed"} minH={"100vh"} bgSize={{base: "-moz-initial", md: 'cover'}} backgroundImage={"/HeroBg.svg"} 
+ <Flex className={hero} width={'100%'} bgAttachment={"fixed"} minH={{base:"700px",md:"100vh"}} bgRepeat={"no-repeat"} bgSize={ 'cover'}  
     >
  <Center   m={'auto'} alignItems={'center'} justifyContent={'center'}>
      <Flex  mx="auto" alignItems={'center'} color='white' flexDir={'column'}>
