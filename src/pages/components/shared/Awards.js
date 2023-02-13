@@ -30,7 +30,7 @@ color={"white"} boxShadow={"rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0
         color: "#white",}}>
 <FontAwesomeIcon icon={faTrophy} fontSize={"70"}  color={"silver"} filter={"drop-shadow(20px 10px 20px black)"} />
 <Text textTransform={"uppercase"} fontSize={{base:"20",md:"30"}}  textAlign={"center"}>Drugo mjesto</Text>
-<Text textTransform={"uppercase"} fontSize={{base: "40", md:"50"}} textAlign={"center"} >1500 KM</Text>
+<Text textTransform={"uppercase"} fontSize={{base: "40", md:"50"}} textAlign={"center"} >1000 KM</Text>
 
 
 </Card>
