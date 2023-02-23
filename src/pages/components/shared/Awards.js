@@ -5,7 +5,7 @@ import {faTrophy} from '@fortawesome/free-solid-svg-icons'
 function Awards() {
 
     const cardStyle={
-        transition: "1s ease all",
+        transition: "0.5s ease all",
 backgroundColor: "#1a1a1a",
 border: "2px solid black",
 color: "white",
