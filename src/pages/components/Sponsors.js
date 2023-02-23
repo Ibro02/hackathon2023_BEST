@@ -24,7 +24,7 @@ function Jobfair() {
 <Flex flexDir={"column"} alignItems={"center"} pb={"40"}>
 <Text align={"center"} fontSize={{base: "5xl", md:"6xl"}} textTransform={"uppercase"} fontWeight={600}>Platinum sponzor</Text>
 <Flex>
-<Image  boxSize={"xl"}  h={"auto"} src={"/Sponsors/mss.png"} mt={{ base: "50", md: "5px"}}></Image>
+<Image  boxSize={"xl"}  h={"auto"} src={"/Sponsors/MSS.png"} mt={{ base: "50", md: "5px"}}></Image>
 </Flex>
 </Flex>
 
