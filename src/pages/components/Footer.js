@@ -6,20 +6,20 @@ import {faFacebookSquare, faInstagram, faLinkedin} from '@fortawesome/free-brand
 function Footer() {
   return (
     <>
-    <Flex  w={"100%"} h={"60"} bgColor={"gray.900"} alignContent={'center'} justifyContent={"space-between"} px={{base:"10%", md:"30%"}} color={"whiteAlpha.800"}>
+    <Flex  w={"100%"} h={"60"} bgColor={"gray.900"} alignContent={'center'} justifyContent={"space-between"} px={{base:"10%", xl:"30%"}} color={"whiteAlpha.800"}>
 <Flex flexDir={"column"} flexWrap="nowrap" alignContent={"left"}>
 
 <Image boxSizing={"border-box"}  bgSize={'contain'} h={"auto"} my={"5"} width={"40"} align={"left"}  src={"/BESTLogo.png"}/>
-<Text  fontSize={{base:"15", md:"20"}} fontWeight={"900"}>
+<Text  fontSize={{base:"15", md: "20"}} fontWeight={"900"}>
 Board of European Students of Technology
 </Text>
-<Text fontSize={{base:"14", md:"20"}} fontWeight={"100"} color={"whiteAlpha.500"} alignItems={"left"}>
+<Text fontSize={{base:"14",md:"15"}} fontWeight={"100"} color={"whiteAlpha.500"} alignItems={"left"}>
 Made by ITD powered by MSS
 </Text>
 </Flex>
 
 
-<Divider orientation='vertical' h={"70%"} margin={"auto"} mx={"10"}/>
+<Divider orientation='vertical' h={"70%"} margin={"auto"} mx={"5"}/>
 
 
 <Flex alignItems={"center"} flexWrap={{base: "wrap", md: "nowrap"}} justifyContent={"center"} flexDir={"row"} m={"5"}>

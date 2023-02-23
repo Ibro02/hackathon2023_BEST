@@ -16,7 +16,7 @@ function Jobfair() {
     
     <Box id='jobfair'>
 
-    <Box  px={{base: "0", md:10, lg:80}} textAlign={"justify"}>
+    <Box  px={{base: "0", md:10, lg:80}} py={20} textAlign={"justify"}>
     <Text  align={"center"} fontSize={{base: "5xl", md:"6xl"}} textTransform={"uppercase"} fontWeight={700} textShadow={"5px 5px 0 black"}>Jobfair</Text>
 <Box bgColor={"#E63448"} width={{base:"60%", md:"m"}} mx={"auto"} my={"5"} h={"3px"} align={"center"} borderRadius={"10"}></Box>
 <Flex flexDir={"column"}  m={{base: "1.5", md: 0

@@ -5,7 +5,7 @@ import Awards from './shared/Awards'
 import Carousel from './shared/Carousel'
 function LastExpirience() {
   return (
-    <Box id={"lastexp"} height={"100%"} m={{base:"1", md:"1", lg:"1"}}  >
+    <Box id={"lastexp"} height={"100%"} py={20} m={{base:"1", md:"1", lg:"1"}}  >
       <Text align={"center"} fontSize={{base: "5xl", md:"6xl"}} textTransform={"uppercase"} fontWeight={700} textShadow={"5px 5px 0 black"}>Prijašnja iskustva</Text>
 <Box bgColor={"#E63448"} width={{base:"80%", md:"lg"}} mx={{base:"0",md:"auto"}} my={"5"} h={"3px"} align={"center"} borderRadius={"100%"}></Box>
 

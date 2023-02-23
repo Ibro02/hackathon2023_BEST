@@ -13,7 +13,8 @@ import Jobfair from './components/Jobfair'
 import Footer from './components/Footer'
 import FirstLayout from './components/shared/FirstLayout'
 import SecondLayout from './components/shared/SecondLayout'
-
+import Sponsors from './components/Sponsors.js'
+import ThirdLayout from './components/shared/ThirdLayout'
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -25,7 +26,7 @@ export default function Home() {
 <About/>
 
 <FirstLayout>
-<Organizer/>
+{<Organizer/>}
 <LastExpirience/>
 </FirstLayout>
 
@@ -36,6 +37,13 @@ export default function Home() {
 <FirstLayout>
 <Jobfair/>
 </FirstLayout>
+
+<ThirdLayout>
+
+<Sponsors/>   
+</ThirdLayout>
+
+
 <Footer/>
 
     </>

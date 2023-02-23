@@ -263,12 +263,8 @@ const NAV_ITEMS = [
   },
   {
     label: 'Sponzori',
-    children: [
-      {
-        label: 'Uskoro!',
-        href: '#',
-      },
+    href: '#sponsors'
   
-    ],
+   
   }
 ];
