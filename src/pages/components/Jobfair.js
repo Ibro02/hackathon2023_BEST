@@ -31,7 +31,7 @@ Na <span style={styleRed}>JobFair-u</span> kompanije imaju priliku da prisustvuj
 </Text>
 </Flex>
 
-<Image  boxSizing={"80"} width={"auto"} m={"auto"}  h={"60"} src={"/job.png"} mt={{ base: "50", md: "5px"}}></Image>
+<Image  boxSizing={"80"} alt={"jobfair"} width={"auto"} m={"auto"}  h={"60"} src={"/job.png"} mt={{ base: "50", md: "5px"}}></Image>
 </Flex>
             </Box>
     </Box>

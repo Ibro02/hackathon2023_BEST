@@ -9,7 +9,7 @@ function Footer() {
     <Flex  w={"100%"} h={"60"} bgColor={"gray.900"} alignContent={'center'} justifyContent={"space-between"} px={{base:"10%", xl:"30%"}} color={"whiteAlpha.800"}>
 <Flex flexDir={"column"} flexWrap="nowrap" alignContent={"left"}>
 
-<Image boxSizing={"border-box"}  bgSize={'contain'} h={"auto"} my={"5"} width={"40"} align={"left"}  src={"/BESTLogo.png"}/>
+<Image boxSizing={"border-box"} alt={"logo"} bgSize={'contain'} h={"auto"} my={"5"} width={"40"} align={"left"}  src={"/BESTLogo.png"}/>
 <Text  fontSize={{base:"15", md: "20"}} fontWeight={"900"}>
 Board of European Students of Technology
 </Text>

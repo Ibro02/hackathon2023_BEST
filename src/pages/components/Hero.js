@@ -14,7 +14,7 @@ function Hero() {
  
       
    <Container size={"4xl"} my={{base:"20", md:"0"}}>
-<Image bgSize={'contain'} width={"100%"} src={"/logo.png"}></Image>
+<Image alt={"logo"}bgSize={'contain'} width={"100%"} src={"/logo.png"}></Image>
 
      
 {/* 

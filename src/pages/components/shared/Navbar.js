@@ -61,7 +61,7 @@ export default function WithSubnavigation() {
             color={useColorModeValue('white', 'gray.800')}>
           
           </Text>  */}
-           <Image  width={"36"} align={useBreakpointValue({ base: 'center', lg: 'left' })} src={"/BEST_signature_mostar_white.png"} >
+           <Image alt={"logo"}  width={"36"} align={useBreakpointValue({ base: 'center', lg: 'left' })} src={"/BEST_signature_mostar_white.png"} >
 
 </Image>
          

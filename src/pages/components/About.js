@@ -50,7 +50,7 @@ vještine, tako i tehničke vještine. Cilj Hackathon-a je da studenti
 u timu pokažu svoju efikasnost, rješavajući softverski problem
 na temu koja se obrađuje na takmičenju.
 </Text>
-<Image   boxSize={"6xl"} h={"auto"} my={"5"} width={"auto"} display={{base: "flex", md: "flex", lg:"none"}} src={"/HackathonWLogo.png"}></Image>
+<Image  alt={"logo"}boxSize={"6xl"} h={"auto"} my={"5"} width={"auto"} display={{base: "flex", md: "flex", lg:"none"}} src={"/HackathonWLogo.png"}></Image>
 <Text fontSize={{base: "2xl", md:"3xl"}}>
 Događaj se sastoji od dva dijela: <span  style={styleRed}>Jobfair</span> i <span  style={styleRed}>Hackathon</span>.
 Na JobFair-u kompanije imaju priliku da prisustvuju raznim “soft skills” i
@@ -58,7 +58,7 @@ Na JobFair-u kompanije imaju priliku da prisustvuju raznim “soft skills” i
 </Text>
 </Flex>
 
-<Image  bgSize={'contain'} width={"40%"} textAlign={'justify'} m={"auto"} h={"50%"} display={{ base:"none", md: "none", lg: "flex"}} src={"/HackathonWLogo.png"}></Image>
+<Image alt={"hackathon"} bgSize={'contain'} width={"40%"} textAlign={'justify'} m={"auto"} h={"50%"} display={{ base:"none", md: "none", lg: "flex"}} src={"/HackathonWLogo.png"}></Image>
 
 </Flex>
                 </Box> 

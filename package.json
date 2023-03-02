@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "export": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -24,14 +25,15 @@
     "eslint-config-next": "13.1.6",
     "fa-icons": "^0.2.0",
     "framer-motion": "^9.0.2",
-    "next": "13.1.6",
+    "next": "^13.1.6",
     "react": "18.2.0",
     "react-color-palette": "^6.2.0",
     "react-dom": "18.2.0",
     "react-highlight-words": "^0.20.0",
     "react-icons": "^4.7.1",
     "react-slick": "^0.29.0",
-    "typewriter-effect": "^2.19.0"
+    "typewriter-effect": "^2.19.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/node": "18.13.0",
