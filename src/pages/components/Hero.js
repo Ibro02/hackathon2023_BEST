@@ -58,7 +58,7 @@ _hover={{
 }}
 // onClick={() => setColorCode(colorList[randomColor()])}
 >
-    HackAtHon
+    Hackathon
       </Button>
     </Link>
 <Link href={"#jobfair"} textDecoration={"none !important"}>
