@@ -44,7 +44,7 @@ const styleNum = {
 <Text mt={10} mb={{base: 0, md: 10}} fontSize={{base: "2xl", md:"3xl"}}>
 <span  style={styleRed}>Hackathon</span> je intenzivno programersko takmičenje timskog
 karaktera koje se održava treću godinu zaredom.
-Timovi od <span style={styleNum}>3</span> do <span style={styleNum}>4</span> člana imaju zadatak da tokom <span style={styleNum}>36</span> sati pokažu
+Timovi od <span style={styleNum}>3</span> do <span style={styleNum}>5</span> člana imaju zadatak da tokom <span style={styleNum}>36</span> sati pokažu
 kako svoju kreativnost, kritičko razmišljanje, prezentacione
 vještine, tako i tehničke vještine. Cilj Hackathon-a je da studenti
 u timu pokažu svoju efikasnost, rješavajući softverski problem
